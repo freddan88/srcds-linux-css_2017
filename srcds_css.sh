@@ -1,7 +1,12 @@
-#! /bin/sh
-# Updated: 2017-01-02
-# Scripted by: www.leemann.se/fredrik
-#
+#!/bin/sh
+# Date: 2018-06-02
+# Author: Fredrik Leemann
+# YouTube: https://www.youtube.com/user/FreLee54
+
+# WebPage: http://www.leemann.se/fredrik
+# Donate: https://www.paypal.me/freddan88
+# GitHub: https://github.com/freddan88
+
 # Script to manage Counter-Strike Source Dedicated Servers.
 # Installation instructions can be found here:
 # https://developer.valvesoftware.com/wiki/SteamCMD#Running_SteamCMD
@@ -14,7 +19,7 @@
 # Start will start the server in a new screensession with the name of the "screen-parameter".
 # Use lowercase letters for foldernames and paths. Capital letters may bug the gameserver...
 
-##### Installation - configuration:
+### Installation - configuration:
 # "folder" = Installationfolder for Counter-Strike Source Dedicated Server
 # "steam" = Installationfolder for SRCDS updatetool (steamcmd)
 # "screen" = Screen name for gameserver
@@ -25,13 +30,14 @@ folder=$HOME/bin/srcds/css
 steam=$HOME/bin/srcds/steamcmd
 screen=css
 
-#### Gameserver - configuration:
+### Gameserver - configuration:
 players=12
 port=27015
 map=de_dust2
 ip=0.0.0.0
 
-#### Don´t edit below: 
+## Don´t edit below this line:
+##############################
 case "$1" in
 
 force_start)
