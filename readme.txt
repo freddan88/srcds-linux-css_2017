@@ -10,8 +10,10 @@ GitHub: https://github.com/freddan88
 Steamcmd - Valve Developers Community
 https://developer.valvesoftware.com/wiki/SteamCMD
 
+Download:
+http://www.leemann.se/fredrik/file_downloads/srcds_linux-css-script.zip
+
 Description:
-------------
 Script to manage/install/update SRCDS for Counter-Strike Source
 
 Tested: Ubuntu/Debian/CentOS Linux
@@ -19,7 +21,6 @@ Tested: Ubuntu/Debian/CentOS Linux
 I take no responsibility for this script, use at your own risk
 
 -----------------------------------------------------------------------------
-
 Actions in script:
 
 // Force start (Shall be used when autostarting)
@@ -36,9 +37,7 @@ Actions in script:
 
 // Restart the server in Gnu-Screen
 #srcds_css.sh restart
-
 or:
-
 #srcds_css.sh reload
 
 // Backup the servers gamefolder (cstrike)
