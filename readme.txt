@@ -19,8 +19,12 @@ Script to manage/install/update SRCDS for Counter-Strike Source
 Tested: Ubuntu/Debian/CentOS Linux
 
 I take no responsibility for this script, use at your own risk
+--------------------------------------------------------------
 
------------------------------------------------------------------------------
+----------------------------------------------------
+License MIT: https://choosealicense.com/licenses/mit
+----------------------------------------------------
+
 Actions in script:
 
 // Force start (Shall be used when autostarting)
